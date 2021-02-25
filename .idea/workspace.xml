@@ -10,11 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f68a38ca-ce50-46db-8334-f78dabce6910" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="f68a38ca-ce50-46db-8334-f78dabce6910" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614272729242</updated>
-      <workItem from="1614272730317" duration="2134000" />
+      <workItem from="1614272730317" duration="2457000" />
     </task>
     <servers />
   </component>
