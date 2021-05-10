@@ -3,16 +3,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Création Web sous Symfony">
+    <meta name="description" content="Développement Web sur mesure, Symfony, Javascript, CSS, WordPress, Prestashop">
     <meta name="author" content="Vincent Parise">
     <meta name="generator" content="Parise 0.0.1">
-    <title>{% block title %}VP-Création : Dév Web sous Symfony{% endblock %}</title>
-    <link href="{{ asset('/assets/css/bootstrap.min.css') }}" rel="stylesheet" >
+    <title>{% block title %}Developpement Web{% endblock %}</title>
 
-    <!-- Bootstrap core CSS -->
+    <!--CSS -->
     <link href="{{ asset('/assets/css/bootstrap.min.css') }}" rel="stylesheet" >
+    <link href="{{ asset('/assets/css/vpcreation.css') }}" rel="stylesheet" >
 
-    <!-- ****** favicons générés par faviconit.com ****** -->
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
     <link rel="icon" sizes="16x16 32x32 64x64" href="/assets/img/favicon.ico">
     <link rel="icon" type="image/png" sizes="196x196" href="/assets/img/favicon-192.png">
@@ -33,7 +32,6 @@
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="msapplication-TileImage" content="/assets/img/favicon-144.png">
     <meta name="msapplication-config" content="/assets/img/browserconfig.xml">
-    <!-- ****** favicons générés par faviconit.com ****** -->
 
     <style>
         .bd-placeholder-img {
@@ -52,18 +50,30 @@
     </style>
 
 </head>
-<body class="d-flex h-100 text-center text-white bg-dark">
+<body class="d-flex h-100 text-center text-white vp-bg">
 
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="mb-auto">
-        <div>
-            <h3 class="float-md-start mb-0">VP CREATION</h3>
-            {# <nav class="nav nav-masthead justify-content-center float-md-end">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Contact</a>
-               </nav>
-            #}
-        </div>
+        <nav class="navbar navbar-expand-md navbar-dark vp-bg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="{{ path('home') }}">
+                    <img src="{{ asset('/assets/img/Logo-VP-Creation-100px.jpg') }}" class="img-fluid" style="height: 75px;" alt="Logo Vp Creation">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link {% if app.request.get('_route') == 'home' %}active{% endif %}" href="{{ path('home') }}">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link {% if app.request.get('_route') == 'contact' %}active{% endif %}" href="{{ path('contact') }}">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main class="px-3">
@@ -73,11 +83,12 @@
     </main>
 
     <footer class="mt-auto text-white-50">
-        <p>@Copyright2020-2021</p>
+        <p><a class="vp-mention" href="{{ path('mention') }}">@Mentions Légales</a></p>
     </footer>
 </div>
 
-
-
 </body>
+{% block javascripts %}
+    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+{% endblock %}
 </html>

@@ -11,14 +11,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f68a38ca-ce50-46db-8334-f78dabce6910" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/css/vpcreation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/hamburger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Notification/Notification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/VP-CREATION.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VP-CREATION.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon-114.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon-114.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon-120.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon-120.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon-144.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon-144.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon-150.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon-150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon-152.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon-152.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon-16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon-16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon-160.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon-160.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon-180.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon-180.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon-192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon-192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon-310.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon-310.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon-32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon-32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon-57.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon-57.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon-60.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon-60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon-64.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon-64.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon-70.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon-70.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon-72.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon-72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon-76.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon-76.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon-96.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon-96.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/icone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -128,6 +158,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/cache" />
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/apache-pack" />
     </include_path>
   </component>
   <component name="ProjectId" id="1oyxetJ9ocyTbgqANpgGmZRN9OV" />
@@ -138,12 +169,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/css" />
+    <property name="com.jetbrains.php.lang.actions.generation.PhpGenerateFieldAccessorHandlerBase$MyMemberChooser.fluent.setters.last.selected" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PARISEIMMOBILIER" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DEVELOPPEMENT\PROJETS\VP-CREATION\public\assets\js" />
       <recent name="D:\DEVELOPPEMENT\PROJETS\VP-CREATION\public\assets\css" />
     </key>
   </component>
@@ -155,7 +188,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614272729242</updated>
-      <workItem from="1614272730317" duration="3482000" />
+      <workItem from="1614272730317" duration="6175000" />
+      <workItem from="1620635104271" duration="17728000" />
     </task>
     <servers />
   </component>
@@ -172,11 +206,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="4580" y="275" key="FileChooserDialogImpl" timestamp="1614273544693">
+    <state x="2673" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1620652560533">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2673" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1620652560533" />
+    <state x="4593" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1620638209772" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1620650895968">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@1920.0.1920.1040" timestamp="1620650895968" />
+    <state x="4580" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1620639516095" />
+    <state x="4580" y="275" key="FileChooserDialogImpl/0.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1614273544693" />
+    <state x="4570" y="243" key="NewPhpClassDialog" timestamp="1620637833531">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="4580" y="275" key="FileChooserDialogImpl/0.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1614273544693" />
+    <state x="4570" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1620637833531" />
   </component>
 </project>

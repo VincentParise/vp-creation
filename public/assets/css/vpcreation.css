@@ -1,0 +1,55 @@
+body{
+    font-family: "Roboto Light";
+}
+
+.vp-bg {
+    background-color: #212529;
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('../img/hamburger.svg');
+}
+
+.navbar-light .navbar-toggler {
+    border-color:white;
+}
+
+.vp-input input {
+    width:200px;
+}
+.vp-input label {
+    margin-right: 15px;
+}
+
+.vp-message textarea {
+    width:200px;
+}
+.vp-message label {
+    margin-right:15px;
+}
+
+.vp-container-mentions {
+    font-size: 12px;
+    color: white;
+    display:flex;
+    flex-direction: column;
+}
+
+.vp-container-mentions h2 {
+    margin-top: 40px;
+}
+
+.vp-mention {
+    color:white;
+    text-decoration: none;
+}
+
+.vp-mention:hover {
+    cursor:pointer;
+    color:rgba(255,255,255,.55);
+}
